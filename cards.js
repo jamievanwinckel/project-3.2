@@ -129,67 +129,67 @@ var _7s = {
     name: "7 Spades",
     minValue: 7,
     maxValue: 7,
-    img: ""
+    img: "./card images/7spades.png"
 };
 var _7d = {
     name: "7 Diamonds",
     minValue: 7,
     maxValue: 7,
-    img: ""
+    img: "./card images/7diamonds.png"
 };
 var _7c = {
     name: "7 Clubs",
     minValue: 7,
     maxValue: 7,
-    img: ""
+    img: "./card images/7clubs.png"
 };
 var _8h = {
     name:"8 Hearts",
     minValue: 8,
     maxValue: 8,
-    img: ""
+    img: "./card images/8hearts.png"
 };
 var _8s = {
     name: "8 Spades",
     minValue: 8,
     maxValue: 8,
-    img: ""
+    img: "./card images/8spades.png"
 };
 var _8d = {
     name: "8 Diamonds",
     minValue: 8,
     maxValue: 8,
-    img: ""
+    img: "./card images/8diamonds.png"
 };
 var _8c = {
     name: "8 Clubs",
     minValue: 8,
     maxValue: 8,
-    img: ""
+    img: "./card images/8clubs.png"
 };
 var _9h = {
     name: "9 Hearts",
     minValue: 9,
     maxValue: 9,
-    img: ""
+    img: "./card images/9hearts.png"
 };
 var _9s = {
     name: "9 Spades",
     minValue: 9,
     maxValue: 9,
-    img: ""
+    img: "./card images/9spades.png"
 };
 var _9d = {
     name: "9 Diamonds",
     minValue: 9,
     maxValue: 9,
-    img: ""
+    img: "./card images/9diamonds.png"
 };
 var _9c = {
     name: "9 Clubs",
     minValue: 9,
     maxValue: 9,
-    img: ""
+    img: "./card images/9clubs.png"
 };
 var _10h = {
     name: "10 Hearts",
@@ -219,95 +219,95 @@ var aceh = {
     name: "Ace Hearts",
     minValue: 1,
     maxValue: 11,
-    img: ""
+    img: "./card images/acehearts.png"
 };
 var aces = {
     name: "Ace Spades",
     minValue: 1,
     maxValue: 11,
-    img: ""
+    img: "./card images/acespades.png"
 };
 var aced = {
     name: "Ace Diamonds",
     minValue: 1,
     maxValue: 11,
-    img: ""
+    img: "./card images/acediamonds.png"
 };
 var acec = {
     name: "Ace Clubs",
     minValue: 1,
     maxValue: 11,
-    img: ""
+    img: "./card images/aceclubs.png"
 };
 var jackh = {
     name: "Jack Hearts",
     minValue: 10,
     maxValue: 10,
-    img: ""
+    img: "./card images/jackhearts.png"
 };
 var jacks = {
     name: "Jack Spades",
     minValue: 10,
     maxValue: 10,
-    img: ""
+    img: "./card images/jackspades.png"
 };
 var jackd = {
     name: "Jack Diamonds",
     minValue: 10,
     maxValue: 10,
-    img: ""
+    img: "./card images/jackdiamonds.png"
 };
 var jackc = {
     name: "Jack Clubs",
     minValue: 10,
     maxValue: 10,
-    img: ""
+    img: "./card images/jackclubs.png"
 };
 var queenh = {
     name: "Queen Hearts",
     minValue: 10,
     maxValue: 10,
-    img: ""
+    img: "./card images/queenhearts.png"
 };
 var queens = {
     name: "Queen Spades",
     minValue: 10,
     maxValue: 10,
-    img: ""
+    img: "./card images/queenspades.png"
 };
 var queend = {
     name: "Queen Diamonds",
     minValue: 10,
     maxValue: 10,
-    img: ""
+    img: "./card images/queendiamonds.png"
 };
 var queenc = {
     name: "Queen Clubs",
     minValue: 10,
     maxValue: 10,
-    img: ""
+    img: "./card images/queenclubs.png"
 };
 var kingh = {
     name: "King Hearts",
     minValue: 10,
     maxValue: 10,
-    img: ""
+    img: "./card images/kinghearts.png"
 };
 var kings = {
     name: "King Spades",
     minValue: 10,
     maxValue: 10,
-    img: ""
+    img: "./card images/kingspades.png"
 };
 var kingd = {
     name: "King Diamonds",
     minValue: 10,
     maxValue: 10,
-    img: ""
+    img: "./card images/kingdiamonds.png"
 };
 var kingc = {
     name: "King Clubs",
     minValue: 10,
     maxValue: 10,
-    img: ""
+    img: "./card images/kingclubs.png"
 };

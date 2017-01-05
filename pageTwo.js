@@ -56,25 +56,22 @@ function firstDeal() {
 function displayPlayerCards() {
   for (i = 0; i < playerCards.length; i++) {
     var divName = "p" + (i + 1);
-    //var imgName = "id" + (i + 1);
+    var imgName = "pid" + (i + 1);
     var divHolder = document.getElementById(divName);
-    document.getElementById(divName).innerHTML = playerCards[i].name;
+    divHolder.className="boxy";
     document.getElementById(divName).className="boxy";
-    //document.getElementById(imgName).src = playerCards[i].img;
+    document.getElementById(imgName).src = playerCards[i].img;
   }
 }
 function displayDealerCards() {
   for (i = 0; i < dealerCards.length; i++) {
     var divName = "d" + (i + 1);
-    var imgName = "id1";
-    //var imgName = "id" + (i + 1);
+    var imgName = "id" + (i + 1);
     var divHolder = document.getElementById(divName);
-    //document.getElementById(divName).innerHTML = dealerCards[i].name;
+    divHolder.className="boxy";
     document.getElementById(divName).className="boxy";
     var purple = document.getElementById(imgName);
-    //document.getElementById(imgName).src = "./card images/kingofhearts.jpg";
-    document.getElementById(imgName).src = "./card images/10clubs.png";
-    //document.getElementById(imgName).src = dealerCards[i].img;
+    document.getElementById(imgName).src = dealerCards[i].img;
   }
 }
 function sumOfCards(cards) {
