@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Created by Jamie Van Winckel-->
+      <meta charset="UTF-8">
+      <title>
+        BLACKJACK
+      </title>
+      <link rel="stylesheet" href="style.css">
+      <script type="text/javascript" src="cookieHelperP3.js"></script>
+      <script type="text/javascript" src="cards.js"></script>
+      <script type="text/javascript" src="pageTwo.js"></script>
+    </head>
+    <body onload="firstDeal();">
+      <div class="bodySetup">
+        <div class="center">
+          <div id="top">
+            <h2>Dealer's Side</h2>
+              <div id="d1"> <img class="boxy" alt="DarkGreen.png" src="DarkGreen.png" id="id1"/></div>
+              <div id="d2"> <img class="boxy" alt="DarkGreen.png" src="DarkGreen.png" id="id2"></div>
+              <div id="d3"> <img class="boxy" alt="DarkGreen.png" src="DarkGreen.png" id="id3"></div>
+              <div id="d4"> <img class="boxy" alt="DarkGreen.png" src="DarkGreen.png" id="id4"></div>
+              <div id="d5"> <img class="boxy" alt="DarkGreen.png" src="DarkGreen.png" id="id5"></div>
+              <div id="d6"> <img class="boxy" alt="DarkGreen.png" src="DarkGreen.png" id="id6"></div>
+              <div id="d7"> <img class="boxy" alt="DarkGreen.png" src="DarkGreen.png" id="id7"></div>
+              <div id="d8"> <img class="boxy" alt="DarkGreen.png" src="DarkGreen.png" id="id8"></div>
+              <div id="d9"> <img class="boxy" alt="DarkGreen.png" src="DarkGreen.png" id="id9"></div>
+              <div id="d10"> <img class="boxy" alt="DarkGreen.png" src="DarkGreen.png" id="id10"></div>
+              <div id="d11"> <img class="boxy" alt="DarkGreen.png" src="DarkGreen.png" id="id11"></div><br>
+          </div>
+          <div id="bottom">
+            <button type="button" id="hitMe" onclick="hitMe()" class="button">Hit Me!</button>
+            <button type="button" id="noMoreCards" onclick="noMoreCards()" class="button">No More Cards</button>
+            <button type="button" id="newGame" onclick="newGame()" class="button">New Game</button>
+            <h2>Player's Side</h2>
+              <div class="sameBackGround" id="p1"></div>
+              <div class="sameBackGround" id="p2"></div>
+              <div class="sameBackGround" id="p3"></div>
+              <div class="sameBackGround" id="p4"></div>
+              <div class="sameBackGround" id="p5"></div>
+              <div class="sameBackGround" id="p6"></div>
+              <div class="sameBackGround" id="p7"></div>
+              <div class="sameBackGround" id="p8"></div>
+              <div class="sameBackGround" id="p9"></div>
+              <div class="sameBackGround" id="p10"></div>
+              <div class="sameBackGround" id="p11"></div><br><br><br>
+              <div id="finalResults" style="clear: both;"></div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>

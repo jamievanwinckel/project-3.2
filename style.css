@@ -1,0 +1,58 @@
+/*Created by Jamie Van Winckel*/
+h1 {
+  font-size: 63px;
+}
+body {
+  background-color: DarkGreen;
+  font-family: "Ariel Verdana", san serif;
+}
+.bodySetup {
+  font-family: Ariel, Verdana;
+  font-size: x-large;
+  color: #240305;
+}
+.center {
+    text-align: center;
+}
+.leftColumn {
+  width:50%;
+  float: left;
+}
+.rightColumn {
+  float: right;
+  width: 50%;
+}
+.button {
+    background-color: #300010;
+    border: 2px solid #300010;
+    color: #000011;
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.boxy {
+  background-color: white;
+  
+  width:90px;
+  height:130px;
+  float: left;
+  margin: 1%;
+  display: inline-block;
+}
+
+#top,
+#bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 60%;
+}
+#top {
+    top: 0;
+}
+#bottom {
+    bottom: 0;
